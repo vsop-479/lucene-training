@@ -1,23 +1,15 @@
 package index.indexWriter;
 
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.document.*;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.util.BytesRef;
-
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class TestIndexWriter {
-    private static final String indexPath = "/Users/zhouhui155/lucene/indices/book";
-    private static final String NAME = "name";
-    private static final String AGE = "age";
-    private static final String LIKE = "like";
-    private static final String PROPERTY = "property";
+public class AddTest {
+
 
     public void bulk(IndexWriter indexWriter, List<byte[]> dataList) throws Exception{
 
