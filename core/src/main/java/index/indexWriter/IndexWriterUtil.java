@@ -9,7 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class IndexWriterUtil {
-    public static final String bookPath = "/Users/zhouhui155/es0/data/indices/bfXeh4L2RJCyFRVyxqXG3Q/0/index";
+    public static final String bookPath = "/Users/zhouhui/es0/data/indices/bfXeh4L2RJCyFRVyxqXG3Q/0/index";
     public static final String NAME = "name";
     public static final String AGE = "age";
     public static final String LIKE = "like";
